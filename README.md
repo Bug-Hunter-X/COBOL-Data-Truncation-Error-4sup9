@@ -1,0 +1,1 @@
+This repository demonstrates a common error in COBOL programs: data truncation. The `bug.cob` file shows a simple program that moves data between fields.  If the receiving field is smaller than the sending field, data will be truncated without a warning. The `bugSolution.cob` shows how to prevent this.
